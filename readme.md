@@ -18,7 +18,7 @@ There are 3 steps in the workflow:
 * PwHash.Alg.PWHASH_ALG_ARGON2ID13
 
 There is a second encryption workflow using **AES-256 in GCM mode** running the same steps, but **unfortunately 
-this mode is not available** on Android (although it should). 
+this mode is not available** on Android (although it should). The issue is filed here: https://github.com/terl/lazysodium-android/issues/59 for further enhancements.
 
 This is the complete logfile:
 
