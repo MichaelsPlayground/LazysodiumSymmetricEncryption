@@ -55,7 +55,8 @@ I/LazysodiumSymmEncr: decrypt the ciphertext using the same algorithm, key and n
 E/LazysodiumSymmEncr: AEAD AES-256 GCM is not available
 ```
 
-The app is compiled on AndroidStudio:
+
+The app is compiled on AndroidStudio (Mac M1 platform):
 ```plaintext
 Android Studio Dolphin | 2021.3.1 Patch 1
 Build #AI-213.7172.25.2113.9123335, built on September 30, 2022
@@ -74,6 +75,8 @@ Non-Bundled Plugins:
     Dart (213.7433)
     io.flutter (71.1.3)
 ```
+
+and tested on Android Emulators (Android SDK 24/29/33) and a real device (Android SDK 29).
 
 To run the app you need to load these dependencies in your build.gradle (app):
 ```plaintext
