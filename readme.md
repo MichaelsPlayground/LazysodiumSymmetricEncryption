@@ -26,6 +26,7 @@ This is the complete logfile:
 I/LazysodiumSymmEncr: init Lazysodium
 I/LazysodiumSymmEncr: passphrase: This is my passphrase 123
 I/LazysodiumSymmEncr: plaintext: The quick brown fox jumps over the lazy dog
+
 I/LazysodiumSymmEncr: ******************************************************************************************
 I/LazysodiumSymmEncr: complete encryption workflow for Argon2ID key derivation and ChaCha20Poly1305 encryption
 I/LazysodiumSymmEncr: generate a random salt for key derivation: C5A37EDF2E7D64F2FD795097862FEBE270C4028C05746602665F8929B0A5C02B
@@ -39,6 +40,7 @@ I/LazysodiumSymmEncr: ciphertext: CD49BBE0BDB9BD0F1C82418E1D2C9F714656E95F03D4CE
 I/LazysodiumSymmEncr: decrypt the ciphertext using the same algorithm, key and nonce
 I/LazysodiumSymmEncr: decryptedtext: The quick brown fox jumps over the lazy dog
 I/LazysodiumSymmEncr: plaintext equals to decrptedtext: true
+
 I/LazysodiumSymmEncr: ******************************************************************************************
 I/LazysodiumSymmEncr: complete encryption workflow for Argon2ID key derivation and AES-256 GCM encryption
 I/LazysodiumSymmEncr: generate a random salt for key derivation: 8150B1B23AFFC5C24A18CEAEF443FBDF3CFB5291A1F4F9529CE6C84D9D70F7C4
